@@ -2,5 +2,6 @@ streamlit
 pandas
 plotly
 Pillow
-openpyxl
 json
+openpyxl==3.1.2
+xlrd
