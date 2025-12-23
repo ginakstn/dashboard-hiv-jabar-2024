@@ -28,7 +28,7 @@ st.markdown("""
     [data-testid="stSidebar"] a,
     [data-testid="stSidebar"] label {
         color: white !important;
-        font-size: 15px !important;
+        font-size: 17px !important;
     }
 
     [data-testid="stSidebar"] .stButton > button {
@@ -41,7 +41,7 @@ st.markdown("""
         font-weight: 600;
         margin-top: 8px;
         padding: 10px;
-        font-size: 15px;
+        font-size: 17px;
     }
 
     [data-testid="stSidebar"] .stButton > button:hover {
@@ -916,6 +916,7 @@ elif selected == "About Research":
     © 2025 — *Gina Kustiana*.  
 
     """)
+
 
 
 
