@@ -40,8 +40,8 @@ st.markdown("""
         text-align: center;
         font-weight: 600;
         margin-top: 8px;
-        padding: 12px;
-        font-size: 18px;
+        padding: 10px;
+        font-size: 15px;
     }
 
     [data-testid="stSidebar"] .stButton > button:hover {
@@ -55,13 +55,13 @@ st.markdown("""
 
     /* Judul metric: Total Kasus HIV, dll */
     div[data-testid="stMetric"] p {
-        font-size: 24px !important;
+        font-size: 21px !important;
         font-weight: 600 !important;
     }
 
     /* Angka metric */
     div[data-testid="stMetricValue"] {
-        font-size: 52px !important;
+        font-size: 45px !important;
         font-weight: 600 !important;
     }
 
@@ -69,7 +69,7 @@ st.markdown("""
     /* JUDUL DASHBOARD */
     /* ============================= */
     .stApp h1 {
-        font-size: 42x !important;
+        font-size: 40x !important;
         font-weight: 800 !important;
     }
 
@@ -84,7 +84,7 @@ st.markdown("""
     /* Sumber data / caption */
     .stCaption,
     div[data-testid="stMarkdown"] span {
-        font-size: 16px !important;
+        font-size: 12px !important;
         color: #6b7280;
     }
 
@@ -916,5 +916,6 @@ elif selected == "About Research":
     © 2025 — *Gina Kustiana*.  
 
     """)
+
 
 
