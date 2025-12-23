@@ -28,7 +28,7 @@ st.markdown("""
     [data-testid="stSidebar"] a,
     [data-testid="stSidebar"] label {
         color: white !important;
-        font-size: 22px !important;
+        font-size: 15px !important;
     }
 
     [data-testid="stSidebar"] .stButton > button {
@@ -916,6 +916,7 @@ elif selected == "About Research":
     © 2025 — *Gina Kustiana*.  
 
     """)
+
 
 
 
