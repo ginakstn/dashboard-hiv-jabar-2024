@@ -166,9 +166,7 @@ selected = st.session_state["selected"]
 # ==============================
 @st.cache_data
 def load_data():
-    df = pd.read_excel(
-        "data hiv jabar 2024.xlsx",
-        engine="openpyxl")
+    df = pd.read_csv("data hiv jabar 2024.csv")
     df.columns = df.columns.str.strip()  # Bersihkan nama kolom
     # ===== NORMALISASI NAMA KAB/KOTA =====
     df["KABKOT_MAP"] = (
@@ -187,9 +185,7 @@ def load_data():
 # ==============================
 @st.cache_data
 def load_trend_data():
-    df_trend = pd.read_excel(
-        "data tren hiv jabar.xlsx",
-        engine="openpyxl")
+    df_trend = pd.read_csv("data tren hiv jabar.csv")
     df_trend.columns = df_trend.columns.str.strip()
 
     df_trend["Tahun"] = df_trend["Tahun"].astype(int)
@@ -920,3 +916,4 @@ elif selected == "About Research":
     © 2025 — *Gina Kustiana*.  
 
     """)
+
