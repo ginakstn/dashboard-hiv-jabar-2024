@@ -895,9 +895,9 @@ elif selected == "About Research":
     
     ---
     ### Tujuan Penelitian
-    Penelitian ini bertujuan untuk menyajikan **analisis deskriptif** kasus Tuberkulosis (TBC) di tingkat kabupaten/kota
-    Provinsi Jawa Barat, termasuk ukuran frekuensi penyakit (*prevalensi per 100.000 penduduk*), ukur
-    serta tren kasus selama tahun **2022–2024**.
+    Penelitian ini bertujuan untuk menyajikan **analisis deskriptif** kasus HIV di tingkat kabupaten/kota
+    Provinsi Jawa Barat, termasuk ukuran frekuensi penyakit (*prevalensi per 100.000 penduduk*), ukuran asosiasi
+    serta tren kasus selama tahun **2018–2024**.
 
     ---
     ### Sumber Data
@@ -916,6 +916,7 @@ elif selected == "About Research":
     © 2025 — *Gina Kustiana*.  
 
     """)
+
 
 
 
