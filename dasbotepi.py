@@ -20,7 +20,7 @@ st.markdown("""
     /* ============================= */
     [data-testid="stSidebar"] {
         background-color: #003566;
-        width: 340px !important;
+        width: 260px !important;
     }
 
     [data-testid="stSidebar"] h1,
@@ -40,8 +40,8 @@ st.markdown("""
         text-align: center;
         font-weight: 600;
         margin-top: 8px;
-        padding: 16px;
-        font-size: 22px;
+        padding: 12px;
+        font-size: 18px;
     }
 
     [data-testid="stSidebar"] .stButton > button:hover {
@@ -69,12 +69,12 @@ st.markdown("""
     /* JUDUL DASHBOARD */
     /* ============================= */
     .stApp h1 {
-        font-size: 56px !important;
+        font-size: 42x !important;
         font-weight: 800 !important;
     }
 
     .stApp h2 {
-        font-size: 35px !important;
+        font-size: 28px !important;
     }
 
     /* ============================= */
@@ -96,7 +96,7 @@ st.markdown("""
 
     /* Heading markdown (###) */
     div[data-testid="stMarkdown"] h3 {
-        font-size: 28px !important;
+        font-size: 24px !important;
         font-weight: 600;
         margin-top: 20px;
     }
@@ -916,4 +916,5 @@ elif selected == "About Research":
     © 2025 — *Gina Kustiana*.  
 
     """)
+
 
